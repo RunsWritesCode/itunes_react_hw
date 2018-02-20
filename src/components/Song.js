@@ -14,6 +14,7 @@ const Song = (props) => {
         {props.artist}
       </p>
       <img src={props.image}/>
+      <a href={props.preview}>Preview</a>
     </div>
   )
 }
