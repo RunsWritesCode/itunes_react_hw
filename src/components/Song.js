@@ -6,7 +6,7 @@ const Song = (props) => {
     <div id="song-item">
     <div id="row">
       <div id="column">
-      <p id="number">
+      <p id="chart-number">
         Number {props.chartPosition}
       </p>
     </div>
