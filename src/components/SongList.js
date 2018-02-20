@@ -5,11 +5,11 @@ class SongList extends Component {
 
   render() {
 
-    const songNodes = this.props.songs.map( song => {
+    const songNodes = this.props.songs.map( (song, index) => {
 
       return (
-        <Song title={song.title.label} key={song.id}>
-          { song.title.label }
+        <Song title={song.title.label} key={song.id} chartPosition={index+1} image={song["im:image"][0].label}>
+          {/* { song.title.label } */}
         </Song>
       )
 
