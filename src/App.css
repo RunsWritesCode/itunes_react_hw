@@ -28,5 +28,38 @@
 } */
 
 body {
-  font-size: 1vw;
+  background-image: url('http://forums.ilounge.com/attachments/lounge/7642d1337591645-ipod-silhouette-postcards-dancers.jpg')
+}
+
+
+div {
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+}
+
+#song-item {
+  font-size: 1.5vw;
+  border: 1px solid black;
+  background:rgba(255,255,255, 0.9);
+
+}
+
+a {
+  font-size: 2vw;
+  color: darkCyan;
+}
+
+h2 {
+  padding: 4px;
+  background: darkCyan;
+}
+
+#preview {
+  margin-bottom: 10px;
+}
+
+#number {
+  color: darkCyan;
+  font-weight: bold;
 }
