@@ -25,7 +25,11 @@ const Song = (props) => {
       <img src={props.image}/>
     </div>
       <div id="preview">
-      <a href={props.preview}>Preview</a>
+        <audio controls>
+          <source src={props.preview} type="audio/mpeg" title="Preview" rel="enclosure"/>
+        </audio>
+
+      {/* <a href={props.preview}>Preview</a> */}
     </div>
     </div>
   )
